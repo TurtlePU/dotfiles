@@ -1,0 +1,56 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[total={7in,11in}]{geometry}
+\pagenumbering{gobble}
+
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+\setmainfont{FreeSerif}
+\frenchspacing
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools,commath}
+
+\newenvironment{answer}{\textit{Ответ.}}{\hfill\newline}
+\newenvironment{solution}{\textit{Решение.}}{\hfill}
+
+\newenvironment{base}{\par\noindent\textbf{База.}}{\hfill}
+\newenvironment{induct}{\par\noindent\textbf{Переход.}}{\hfill}
+
+\renewcommand{\qedsymbol}{Ч.Т.Д.}
+\renewcommand{\epsilon}{\ensuremath{\varepsilon}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+\renewcommand{\kappa}{\ensuremath{\varkappa}}
+\renewcommand{\le}{\ensuremath{\leqslant}}
+\renewcommand{\leq}{\ensuremath{\leqslant}}
+\renewcommand{\ge}{\ensuremath{\geqslant}}
+\renewcommand{\geq}{\ensuremath{\geqslant}}
+\renewcommand{\emptyset}{\varnothing}
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Int}{\int\limits}
+
+\usepackage{titlesec,indentfirst}
+\titleformat{\section}{\Large\normalfont\bfseries}{№\,}{0em}{}
+\titleformat{\subsection}{\large\normalfont\bfseries}{}{0em}{}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstdefinestyle{codestyle}{
+    language = C++,
+    basicstyle = \ttfamily\bfseries\small,
+    keywordstyle = \color{blue}
+}
+\lstset{style = codestyle}
+
+\title{Д/з по ...}
+\author{Павел Соколов}
+\date{К ...}
+
+\begin{document}
+\maketitle
+
+\end{document}

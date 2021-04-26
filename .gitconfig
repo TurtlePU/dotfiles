@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+	autocrlf = input
+[user]
+	name = TurtlePU
+	email = sokolov.p64@gmail.com
+[credential]
+	helper = cache
+[init]
+	defaultBranch = main
